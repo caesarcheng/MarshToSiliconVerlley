@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by caesarcheng on 13/07/2017.
  */
-public class IntervalSubtraction {
+public class IntervalMergeAndSubtraction {
     static List<_Interval> intervalSubtaction(List<_Interval> list1, List<_Interval> list2) {
         Collections.sort(list1);
         Collections.sort(list2);
